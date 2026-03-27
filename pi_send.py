@@ -1,5 +1,4 @@
-
-# pi_stream_client.py
+##streaming from pi to laptop
 import socket
 import struct
 import cv2
@@ -9,7 +8,7 @@ SERVER_IP = "192.168.137.1"  # windows laptop IP
 SERVER_PORT = 5000
 
 picam2 = Picamera2()
-picam2.preview_configuration.main.size = (320, 240)  # small for Pi / future Pi Zero
+picam2.preview_configuration.main.size = (320, 240)  
 picam2.preview_configuration.main.format = "RGB888"
 picam2.preview_configuration.align()
 picam2.configure("preview")
