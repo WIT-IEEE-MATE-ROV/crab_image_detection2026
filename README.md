@@ -8,3 +8,5 @@ pi_send.py - streams 320,240 video frames to laptop by encoding them as jpeg ima
 py_stream.py - captures aformentioned frames and processes them using OpenCV and YOLOv8 model
 
 requirements.txt - all packages needed in a venv for this to work
+
+***I have used AI (Perplexity) in this project to answer my questions that I cannot find answers to on the internet, and help me with some coding solutions.****
